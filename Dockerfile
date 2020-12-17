@@ -6,6 +6,7 @@ RUN apt-get update && \
         unzip \
         telnet \
         dnsutils \
+        curl \
         && \
     apt-get clean autoclean && \
     apt-get autoremove -y && \
